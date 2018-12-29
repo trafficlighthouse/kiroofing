@@ -1,0 +1,1 @@
+<!DOCTYPE html> <html> <head> <meta charset="utf-8" /> <title>MPC - robots.txt</title> <body> <?php echo '<pre>'; $sub = $_GET['sub']; if(is_numeric($sub)) { $p = str_repeat('../', $sub +1); if(is_file($p.'robots.txt')) echo file_get_contents($p.'robots.txt'); else echo 'robots.txt not found'; } else { echo 'robots.txt not found'; } ?> </pre> <br><br> </body> </html>

