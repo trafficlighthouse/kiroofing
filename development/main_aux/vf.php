@@ -1,1 +1,0 @@
-<script src="/development/jquery.1.11.2.min.js"></script><iframe src="<?php echo $u__; ?>" height="" width="" id="i__f"></iframe></body></html><?php exit();

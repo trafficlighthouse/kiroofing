@@ -1,1 +1,0 @@
-<?php $aname = (isset($_GET['ar']))? $_GET['ar'] : ""; if($aname == "") { header('Content-type:text/plain'); echo 'File not found'; exit(); } if(strpos($aname, '/') !== false) { header('Content-type:text/plain'); echo 'File not found!'; exit(); } header('Content-type: text/plain; charset=UTF-8'); echo file_get_contents("article/$aname"); exit(); ?>

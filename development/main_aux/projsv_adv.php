@@ -1,1 +1,0 @@
-<?php require_once('iccheck.php'); $x0G3155XX = (isset($_GET['pn']))? $_GET['pn'] : 'no filename'; header('Content-disposition: attachment; filename="'.$x0G3155XX.'.tgz"'); header('Content-type: application/x-gzip'); readfile('mpc_project.tgz');
